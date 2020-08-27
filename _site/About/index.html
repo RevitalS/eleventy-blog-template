@@ -4,18 +4,51 @@
   <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1" /> 
   <title>Eleventy Blog</title> 
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head> 
 <body> 
   <header>
-    Site Header
-    <a href="/About">About</a>
+    <nav class="zone blue sticky">
+    <ul class="main-nav">
+      <li ><a href="/">My Blog</a></li>
+      <li ><a href="/About">About</a></li>
+      <li class="push" ><a href="/Contact">Contact</a></li>
+    </ul>
   </header> 
-  <main> 
-    <h1>About this blog</h1>
+  <div class="container zone"><img class="cover" src="/img/hawaii-cover.jpg" alt="cover image">></div>
+  <main class="zone blue grid-wrapper">
+      <h1>About this blog</h1>
 <p>This is my special place on the big World Wide Web</p>
 
   </main> 
-  <footer>Site Footer</footer> 
+  
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://www.instagram.com/revitalsirotkin/" target="_blank"><img class="icon" src="/img/instagram.png"</a>
+        <a href="https://www.facebook.com/revitle/" target="_blank"><img class="icon" src="/img/facebook.png"</a>
+        <a href="mailto: revitle@gmail.com" target="_blank"><img class="icon" src="/img/gmail.png"</a>
+
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="/">Home</a>
+
+					<a href="/About">About</a>
+
+					<a href="/Contact">Contact</a>
+				</p>
+
+				<p>&copy; Revital Sirotkin 2020</p>
+			</div>
+
+		</footer>
+
+
 </body> 
 </html>

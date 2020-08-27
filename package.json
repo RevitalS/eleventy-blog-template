@@ -13,6 +13,10 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-navigation": "^0.1.6",
+    "@campj/eleventy-fa-icons": "0.0.5",
     "moment": "^2.27.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30"
   }
 }

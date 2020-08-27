@@ -1,5 +1,5 @@
 const moment = require('moment');
- 
+
 moment.locale('en');
  
 module.exports = function (eleventyConfig) {
@@ -14,6 +14,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
 
+  eleventyConfig.addPassthroughCopy('css');
+
+  eleventyConfig.addPassthroughCopy("img");
 };
 
 function extractExcerpt(article) {
@@ -43,4 +46,5 @@ function extractExcerpt(article) {
  
   return excerpt;
 }
+
 

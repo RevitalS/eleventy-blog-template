@@ -7,7 +7,7 @@ pagination:
   alias: posts
 ---
 {% for post in posts %}
-  <article>
+  <article class="zone box">
     <h1>
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h1>
