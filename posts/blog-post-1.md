@@ -1,9 +1,8 @@
 ---
 layout: layouts/post.njk 
 title: This Is My First Ever Post
-date: 2019-05-30
-tags: ['post']
 description: The first post on the Eleventy + Netlify CMS from scratch blog
+date: 2019-05-30
 featuredImage: /images/uploads/image1.jpeg
 ---
 <!-- Excerpt Start -->
