@@ -17,6 +17,7 @@
     "moment": "^2.27.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.30"
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "luxon": "^1.25.0"
   }
 }
