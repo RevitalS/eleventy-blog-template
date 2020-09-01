@@ -108,6 +108,11 @@ footer {
   grid-area: 1/1/6/6;
 }
 
+.img--align-left {
+  float: left; /* replaces the style previously inherited by the browser */
+  margin: 0 16px 16px 0;
+}
+
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
 *  Green Background

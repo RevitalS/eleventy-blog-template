@@ -6,5 +6,5 @@ layout: layouts/base.njk
   <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time> 
   <p>{{ content | safe }}</p>
 
-  <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
+  <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}" class="img--align-left"></img>
 </article>

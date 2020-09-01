@@ -1,7 +1,9 @@
 ---
-layout: layouts/base.njk
+layout: layouts/about.njk
 ---
 
-# About this blog
+# עלי
 
-This is my special place on the big World Wide Web
+קוראים לי רויטל ואני מתעניינת בתזונה
+
+
