@@ -84,6 +84,11 @@ a{
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
+.flex-wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 /*.box >img {
   width: 100%;
 }*/
