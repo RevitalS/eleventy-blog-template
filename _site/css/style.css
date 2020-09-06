@@ -113,6 +113,10 @@ footer {
   grid-area: 1/1/6/6;
 }
 
+.post p {
+  margin: 20px;
+}
+
 .post img {
   width: 600px;
 }
