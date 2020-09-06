@@ -1,5 +1,6 @@
 ---
 layout: layouts/about.njk
+featuredImage: /images/cat2.jpg
 ---
 
 # עלי
