@@ -1,9 +1,10 @@
 ---
 layout: layouts/base.njk
-featuredImage:
+featuredImage: /images/cat2.jpg
 ---
-<div dir='rlt' class='post'>
+<div  class='about'>
+  <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
   <p>{{ content | safe }}</p>
 
-  <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
+
   </div>
