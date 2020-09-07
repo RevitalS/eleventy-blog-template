@@ -9,6 +9,7 @@ pagination:
 ---
 {% for post in posts %}
   <article class="zone box" dir="rtl">
+  <img src="{{ post.data.featuredImage | url }}" alt="{{ post.data.featuredImage }}" class="small-img"></img>
     <h1>
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
     </h1>
