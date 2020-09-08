@@ -1,6 +1,7 @@
 body{
   margin: auto 0;/*to set the margin of the page*/
   font-family: Arial;
+  background:  #fff5d7;
 }
 
 .zone {
@@ -34,6 +35,7 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
+  background: #ffaaab  ;
 } /*common for nav stack*/
 
 .main-nav{
@@ -94,11 +96,11 @@ a{
 }*/
 
 .box {
-background-color: #444;
+background-color: #b3cc8e;
 padding: 10px;
 margin: 10px;
 font-size: large;
-width: 30%;
+width: 20%;
 text-align: center;
 }
 
@@ -116,7 +118,8 @@ footer {
   text-align: center;
   align-items: center;
   justify-content: center;
-  grid-area: 1/1/6/6;
+  background: #b3cc8e;
+  margin: 20px;
 }
 
 .post p {
@@ -234,7 +237,7 @@ section {
 }
 
 .footer-distributed {
-  background-color: #292c2f;
+  background-color: #feb300;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
