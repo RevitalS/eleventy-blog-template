@@ -2,6 +2,9 @@ body{
   margin: auto 0;/*to set the margin of the page*/
   font-family: Arial;
   background:  #fff5d7;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 60px;
 }
 
 .zone {
@@ -45,14 +48,6 @@ body{
   margin: 0;
 }
 
-@media only screen and (max-width:600px){
-  .main-nav{
-      font-size: 0.5em;
-      padding: 0;
-  }
-
-}
-
 .push{
   margin-left: auto;
 }
@@ -71,12 +66,16 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vh; /*vh - viewport - like % */
+  height: 30vh; /*vh - viewport - like % */
+  width: 100%;
+  margin: 0;
 }
 
 .cover {
   background-size: cover;
-  height: 50vh;
+  height: 30vh;
+  width: 100%;
+  margin: 0;
 }
 
 /*GRID*/
@@ -107,6 +106,9 @@ text-align: center;
 
 footer {
   text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 60px;
 }
 
 .small-img {
@@ -323,4 +325,18 @@ section {
 
 .icon {
   width: 35px;
+}
+
+
+
+@media only screen and (max-width:600px){
+  .main-nav{
+      font-size: 0.5em;
+      padding: 0;
+  }
+
+  .box {
+    width: 100%;
+  }
+
 }
