@@ -2,9 +2,9 @@ body{
   margin: auto 0;/*to set the margin of the page*/
   font-family: Arial;
   background:  #fff5d7;
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 60px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .zone {
@@ -107,8 +107,7 @@ text-align: center;
 footer {
   text-align: center;
   width: 100%;
-  position: absolute;
-  bottom: 60px;
+
 }
 
 .small-img {
@@ -120,8 +119,10 @@ footer {
   text-align: center;
   align-items: center;
   justify-content: center;
-  background: #b3cc8e;
+  background: #FFFCE8;
   margin: 20px;
+  border: 5px double #CA8548;
+  border-radius: 5px;
 }
 
 .post p {
