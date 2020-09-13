@@ -107,7 +107,6 @@ text-align: center;
 footer {
   text-align: center;
   width: 100%;
-
 }
 
 .small-img {
@@ -116,13 +115,23 @@ footer {
 }
 
 .post {
-  text-align: center;
   align-items: center;
   justify-content: center;
   background: #FFFCE8;
   margin: 20px;
   border: 5px double #CA8548;
   border-radius: 5px;
+}
+
+.post h1{
+  text-align: center;
+}
+
+.post time{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
 }
 
 .post p {
@@ -226,17 +235,6 @@ footer {
 
 * {
   font-family: Roboto;
-}
-
-section {
-  width: 100%;
-  display: inline-block;
-  background: #ccc;
-  height: 60vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
 }
 
 .footer-distributed {
