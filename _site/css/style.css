@@ -88,6 +88,7 @@ a{
 .flex-wrapper{
   display: flex;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 
 /*.box >img {
@@ -99,8 +100,14 @@ background-color: #b3cc8e;
 padding: 10px;
 margin: 10px;
 font-size: large;
-width: 20%;
 text-align: center;
+width: 25rem;
+/*flex-basis: 20%;*/
+flex-grow: 0;
+}
+
+.box + .box {
+  margin-left: 2%;
 }
 
 
@@ -337,10 +344,15 @@ p {
   }
 
   .box {
-    width: 100%;
+    flex-basis:auto;
+    width: auto;
   }
 
   .post {
+    width: 90%;
+  }
+
+  .about {
     width: 90%;
   }
 
