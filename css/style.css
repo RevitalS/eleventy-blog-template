@@ -46,11 +46,12 @@ body{
   list-style: none;
   font-size: 0.7em;
   margin: 0;
+  direction: rtl;
 }
 
 .push{
-  margin-left: auto;
-}
+  margin-right: auto;
+} 
 
 li{
   padding: 20px;
@@ -59,6 +60,10 @@ li{
 a{
   color: #f5f5f6;
   text-decoration: none;
+}
+
+.logo {
+  width: 5em;
 }
 
 /*COVER*/
@@ -179,6 +184,7 @@ p {
 .about img {
   margin: 20px;
   width: 40%;
+  max-width: 500px;
   float: right;
 }
 
@@ -368,4 +374,18 @@ p {
     line-height: 30px;
   }
 
+}
+
+.contact {
+align-items: center;
+align-content: center;
+background: #b3cc8e;
+justify-content: center;
+text-align: center;
+margin: auto;
+border: 5px double #2A761A;
+border-radius: 5px;
+padding-right: 10px;
+width: 60%;
+color: white;
 }
