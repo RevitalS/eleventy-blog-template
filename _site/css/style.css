@@ -71,14 +71,14 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30vh; /*vh - viewport - like % */
+  height: 40vh; /*vh - viewport - like % */
   width: 100%;
   margin: 0;
 }
 
 .cover {
   background-size: cover;
-  height: 30vh;
+  height: 100%;
   width: 100%;
   margin: 0;
 }
@@ -323,6 +323,15 @@ p {
 .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
 
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+
+.copy p {
+  display: inline-block;
+}
+
+.copy img {
+  width: 15px;
+}
 
 /* Media Queries */
 
