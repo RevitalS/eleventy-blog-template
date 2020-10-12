@@ -97,16 +97,13 @@ a{
   flex-wrap: wrap;
 }
 
-/*.box >img {
-  width: 100%;
-}*/
-
 .box {
 background-color: #b3cc8e;
 margin: 10px;
 font-size: large;
 text-align: center;
-width: 25rem;
+width: 100%;
+max-width: 350px;
 /*flex-basis: 20%;*/
 flex-grow: 0;
 }
