@@ -3,8 +3,10 @@ layout: layouts/base.njk
 ---
 <article class="post" dir="rtl">
   <h1>{{ title }}</h1> 
+   <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
+   <br>
   <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time> 
   <br>
   <p>{{ content | safe }}</p>
- <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
+
 </article>
