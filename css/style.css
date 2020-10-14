@@ -47,6 +47,7 @@ body{
   font-size: 0.7em;
   margin: 0;
   direction: rtl;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .push{
@@ -107,6 +108,7 @@ width: 100%;
 max-width: 350px;
 /*flex-basis: 20%;*/
 flex-grow: 0;
+-webkit-tap-highlight-color: transparent;
 }
 
 
