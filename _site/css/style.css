@@ -39,6 +39,7 @@ body{
   top: 0;
   width: 100%;
   background: #ffaaab  ;
+  -webkit-tap-highlight-color: transparent;
 } /*common for nav stack*/
 
 .main-nav{
@@ -47,7 +48,6 @@ body{
   font-size: 0.7em;
   margin: 0;
   direction: rtl;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .push{
@@ -172,9 +172,10 @@ p {
   margin: 20px;
   border: 5px double #CA8548;
   border-radius: 5px;
-  margin: 100px 15px;
+  margin: 80px auto;
   padding-right: 10px;
   width: 90%;
+  max-width: 1500px;
 }
 
 .about h1 {
@@ -185,11 +186,19 @@ p {
     justify-content: center;
 }
 
+.about p {
+  font-size: large;
+  letter-spacing: 1.5px;
+  margin: 30px;
+  line-height: 1.8;
+}
+
 
 .about img {
   margin: 20px;
   width: 40%;
   max-width: 500px;
+  min-width: 350px;
   float: right;
 }
 
@@ -368,6 +377,8 @@ p {
   .box {
     flex-basis:auto;
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .post {
