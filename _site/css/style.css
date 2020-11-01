@@ -104,6 +104,9 @@ flex-grow: 0;
 -webkit-tap-highlight-color: transparent;
 }
 
+.box .link:hover {
+color: teal;
+}
 
 
 footer {
