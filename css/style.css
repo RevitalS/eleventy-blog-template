@@ -153,7 +153,7 @@ p {
 }
 
 .post img {
-  max-height: 350px;
+  max-height: 500px;
   width: 90%;
   align-self: center;
   display: block;
